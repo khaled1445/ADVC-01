@@ -107,7 +107,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q17: What is the difference between covariance and contravariance? 
-            //
+            //Covariance allows you to use a more derived type than the original, while contravariance allows you to use a less derived type than the original.
+            //Covariance is used for return types, while contravariance is used for parameter types.
             #endregion
 
             #region  Q18: How do static members work in generic types?
