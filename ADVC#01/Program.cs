@@ -12,7 +12,13 @@ namespace ADVC_01
             #endregion
 
             #region Q2: Write a generic class Container<T> with Add and Get methods.
-            // 
+            //Container<int> containerInt = new Container<int>();
+            //containerInt.AddValue(42);
+            //Console.WriteLine(containerInt.GetValue());
+
+            //Container<string> containerString = new Container<string>();
+            //containerString.AddValue("Hello");
+            //Console.WriteLine(containerString.GetValue());
 
             #endregion
 
@@ -53,6 +59,7 @@ namespace ADVC_01
             //
 
             #endregion
+
             #region  Q12: How do you apply multiple constraints? Write an example.
             //
             #endregion
