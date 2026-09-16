@@ -75,8 +75,8 @@ namespace ADVC_01
             #endregion
 
             #region   Q11: What is the base class constraint? Write an example.
-            //
-
+            // it's a constraint that put a rule on the generic type parameter to inherit from a specific bse class.
+            // public class BaseClassConstraintContainer<T> where T : MyBaseClass
             #endregion
 
             #region  Q12: How do you apply multiple constraints? Write an example.
