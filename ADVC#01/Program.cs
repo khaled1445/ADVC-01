@@ -96,7 +96,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q15: What is covariance? Explain the 'out' keyword.
-
+            // covariance allows you to use a more derived type than the original, it enables you to assign a more derived type to a less derived type.
+            // The 'out' keyword is used in generic type parameters to indicate that the type parameter is covariant, si it can be used as a return type but not as a parameter type.
             #endregion
 
             #region  Q16: What is contravariance? Explain the 'in' keyword.
