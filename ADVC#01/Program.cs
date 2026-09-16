@@ -63,7 +63,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q9: What is the 'new()' constraint? Write an example. 
-            //
+            //it's a constraint that put a rule on the generic type parameter to have a parameterless constructor.
+            // public class ParameterlessConstructorContainer<T> where T : new()
             #endregion
 
             #region  Q10: What is the interface constraint? Write an example.
