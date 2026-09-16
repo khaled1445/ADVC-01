@@ -45,74 +45,75 @@ namespace ADVC_01
             //    return a.CompareTo(b) > 0 ? a : b;
             //}
             //Console.WriteLine(FindMax<int>(5, 10));
-        #endregion
+            #endregion
 
-        #region  Q6: What is a generic interface? Write IRepository<T>.
-        //
-        #endregion
+            #region  Q6: What is a generic interface? Write IRepository<T>.
+            //it's an interface that can use generic type parameters, allowing it to define a contract for classes that can work with different data types.
 
-        #region  Q7: What is the 'struct' constraint? Write an example.
-        //
-        #endregion
+            #endregion
 
-        #region  Q8: What is the 'class' constraint? Write an example.
-        //
-        #endregion
+            #region  Q7: What is the 'struct' constraint? Write an example.
+            //
+            #endregion
 
-        #region  Q9: What is the 'new()' constraint? Write an example. 
-        //
-        #endregion
+            #region  Q8: What is the 'class' constraint? Write an example.
+            //
+            #endregion
 
-        #region  Q10: What is the interface constraint? Write an example.
-        //
+            #region  Q9: What is the 'new()' constraint? Write an example. 
+            //
+            #endregion
 
-        #endregion
+            #region  Q10: What is the interface constraint? Write an example.
+            //
 
-        #region   Q11: What is the base class constraint? Write an example.
-        //
+            #endregion
 
-        #endregion
+            #region   Q11: What is the base class constraint? Write an example.
+            //
 
-        #region  Q12: How do you apply multiple constraints? Write an example.
-        //
-        #endregion
+            #endregion
 
-        #region  Q13: What does the 'default' keyword do in generics?
-        //
-        #endregion
+            #region  Q12: How do you apply multiple constraints? Write an example.
+            //
+            #endregion
 
-        #region  Q14: Write a SafeList < T > that returns default when the index is invalid.
-        //
-        #endregion
+            #region  Q13: What does the 'default' keyword do in generics?
+            //
+            #endregion
 
-        #region  Q15: What is covariance? Explain the 'out' keyword.
-        //
+            #region  Q14: Write a SafeList < T > that returns default when the index is invalid.
+            //
+            #endregion
 
-        #endregion
+            #region  Q15: What is covariance? Explain the 'out' keyword.
+            //
 
-        #region  Q16: What is contravariance? Explain the 'in' keyword.
-        //
+            #endregion
 
-        #endregion
+            #region  Q16: What is contravariance? Explain the 'in' keyword.
+            //
 
-        #region  Q17: What is the difference between covariance and contravariance? 
-        //
-        #endregion
+            #endregion
 
-        #region  Q18: How do static members work in generic types?
-        //
+            #region  Q17: What is the difference between covariance and contravariance? 
+            //
+            #endregion
 
-        #endregion
+            #region  Q18: How do static members work in generic types?
+            //
 
-        #region Q19: How can you inherit from a generic class?
-        //
-        #endregion
+            #endregion
 
-        #region Q20: Complete Exercise -Create a generic Cache < TKey, TValue>with Add, Get, Remove, Contains, and expiration support
-        //
+            #region Q19: How can you inherit from a generic class?
+            //
+            #endregion
 
-        #endregion
-    }
+            #region Q20: Complete Exercise -Create a generic Cache < TKey, TValue>with Add, Get, Remove, Contains, and expiration support
+            //
+
+            #endregion
+        }
 
     }
 }
