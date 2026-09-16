@@ -114,7 +114,7 @@ namespace ADVC_01
             #endregion
 
             #region Q19: How can you inherit from a generic class?
-            //
+            //by specifying the type parameter when inheriting from the generic class.
             #endregion
 
             #region Q20: Complete Exercise -Create a generic Cache < TKey, TValue>with Add, Get, Remove, Contains, and expiration support
