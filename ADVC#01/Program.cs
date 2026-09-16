@@ -96,7 +96,6 @@ namespace ADVC_01
             #endregion
 
             #region  Q15: What is covariance? Explain the 'out' keyword.
-            //
 
             #endregion
 
@@ -110,7 +109,7 @@ namespace ADVC_01
             #endregion
 
             #region  Q18: How do static members work in generic types?
-            //
+            // it's a share between all instances of the same generic type, but each closed type has its own static members.
 
             #endregion
 
