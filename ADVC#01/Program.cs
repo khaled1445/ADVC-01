@@ -80,7 +80,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q12: How do you apply multiple constraints? Write an example.
-            //
+            //public class MultipleConstraintsContainer<T> where T : class, IDisposable, new()
+            // you can apply multiple constraints by separating them with commas, but they mustn't conflict. 
             #endregion
 
             #region  Q13: What does the 'default' keyword do in generics?
