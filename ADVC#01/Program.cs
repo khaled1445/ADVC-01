@@ -85,7 +85,7 @@ namespace ADVC_01
             #endregion
 
             #region  Q13: What does the 'default' keyword do in generics?
-            //
+            // it returns the default value for the given type parameter whatever the type is.
             #endregion
 
             #region  Q14: Write a SafeList < T > that returns default when the index is invalid.
