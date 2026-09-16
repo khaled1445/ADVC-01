@@ -101,7 +101,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q16: What is contravariance? Explain the 'in' keyword.
-            //
+            //contravariance allows you to use a less derived type than the original, it enables you to assign a less derived type to a more derived type.
+            // The 'in' keyword is used in generic type parameters to indicate that the type parameter is contravariant, meaning it can be used as a parameter type but not as a return type.
 
             #endregion
 
