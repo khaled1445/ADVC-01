@@ -53,7 +53,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q7: What is the 'struct' constraint? Write an example.
-            //
+            // it's a constraint that put a rule on the generic type parameter to be a value type (struct).
+            // public class ValueTypeContainer<T> where T : struct
             #endregion
 
             #region  Q8: What is the 'class' constraint? Write an example.
