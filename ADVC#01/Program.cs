@@ -29,80 +29,86 @@ namespace ADVC_01
             //Console.WriteLine($"Key: {pair.Key}, Value: {pair.Value}");
             #endregion
 
-        #region  Q4: What is a generic method? Write Swap < T > method.
-        // 
-        #endregion
+            #region  Q4: What is a generic method? Write Swap < T > method.
+            // it's a method that can use generic type parameters, allowing it to work with different data types.
+            //public static void swap<T>(ref T a, ref T b) 
+            //{
+            //    T temp = a;
+            //    a = b;
+            //    b = temp;
+            //}
+            #endregion
 
-        #region  Q5: Write a generic method FindMax < T > that finds maximum value
-        //
-        #endregion
+            #region  Q5: Write a generic method FindMax < T > that finds maximum value
+            //
+            #endregion
 
-        #region  Q6: What is a generic interface? Write IRepository<T>.
-        //
-        #endregion
+            #region  Q6: What is a generic interface? Write IRepository<T>.
+            //
+            #endregion
 
-        #region  Q7: What is the 'struct' constraint? Write an example.
-        //
-        #endregion
+            #region  Q7: What is the 'struct' constraint? Write an example.
+            //
+            #endregion
 
-        #region  Q8: What is the 'class' constraint? Write an example.
-        //
-        #endregion
+            #region  Q8: What is the 'class' constraint? Write an example.
+            //
+            #endregion
 
-        #region  Q9: What is the 'new()' constraint? Write an example. 
-        //
-        #endregion
+            #region  Q9: What is the 'new()' constraint? Write an example. 
+            //
+            #endregion
 
-        #region  Q10: What is the interface constraint? Write an example.
-        //
+            #region  Q10: What is the interface constraint? Write an example.
+            //
 
-        #endregion
+            #endregion
 
-        #region   Q11: What is the base class constraint? Write an example.
-        //
+            #region   Q11: What is the base class constraint? Write an example.
+            //
 
-        #endregion
+            #endregion
 
-        #region  Q12: How do you apply multiple constraints? Write an example.
-        //
-        #endregion
+            #region  Q12: How do you apply multiple constraints? Write an example.
+            //
+            #endregion
 
-        #region  Q13: What does the 'default' keyword do in generics?
-        //
-        #endregion
+            #region  Q13: What does the 'default' keyword do in generics?
+            //
+            #endregion
 
-        #region  Q14: Write a SafeList < T > that returns default when the index is invalid.
-        //
-        #endregion
+            #region  Q14: Write a SafeList < T > that returns default when the index is invalid.
+            //
+            #endregion
 
-        #region  Q15: What is covariance? Explain the 'out' keyword.
-        //
+            #region  Q15: What is covariance? Explain the 'out' keyword.
+            //
 
-        #endregion
+            #endregion
 
-        #region  Q16: What is contravariance? Explain the 'in' keyword.
-        //
+            #region  Q16: What is contravariance? Explain the 'in' keyword.
+            //
 
-        #endregion
+            #endregion
 
-        #region  Q17: What is the difference between covariance and contravariance? 
-        //
-        #endregion
+            #region  Q17: What is the difference between covariance and contravariance? 
+            //
+            #endregion
 
-        #region  Q18: How do static members work in generic types?
-        //
+            #region  Q18: How do static members work in generic types?
+            //
 
-        #endregion
+            #endregion
 
-        #region Q19: How can you inherit from a generic class?
-        //
-        #endregion
+            #region Q19: How can you inherit from a generic class?
+            //
+            #endregion
 
-        #region Q20: Complete Exercise -Create a generic Cache < TKey, TValue>with Add, Get, Remove, Contains, and expiration support
-        //
+            #region Q20: Complete Exercise -Create a generic Cache < TKey, TValue>with Add, Get, Remove, Contains, and expiration support
+            //
 
-        #endregion
-    }
+            #endregion
+        }
 
     }
 }
