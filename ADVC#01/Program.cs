@@ -58,7 +58,8 @@ namespace ADVC_01
             #endregion
 
             #region  Q8: What is the 'class' constraint? Write an example.
-            //
+            // it's a constraint that put a rule on the generic type parameter to be a reference type (class).
+            // public class ReferenceTypeContainer<T> where T : class
             #endregion
 
             #region  Q9: What is the 'new()' constraint? Write an example. 
