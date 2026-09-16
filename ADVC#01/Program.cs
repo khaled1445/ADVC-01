@@ -68,7 +68,9 @@ namespace ADVC_01
             #endregion
 
             #region  Q10: What is the interface constraint? Write an example.
-            //
+            //it's a constraint that put a rule on the generic type parameter to implement a specific interface, so you can use the methods defined in that interface.
+            // public class InterfaceConstraintContainer<T> where T : IDisposable
+
 
             #endregion
 
