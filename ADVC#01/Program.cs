@@ -89,7 +89,10 @@ namespace ADVC_01
             #endregion
 
             #region  Q14: Write a SafeList < T > that returns default when the index is invalid.
-            //
+            //SafeList<int> safeList = new SafeList<int>();
+            //safeList.Add(15);
+            //Console.WriteLine(safeList.Get(0));
+            //Console.WriteLine(safeList.Get(1));
             #endregion
 
             #region  Q15: What is covariance? Explain the 'out' keyword.
